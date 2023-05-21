@@ -1,0 +1,27 @@
+Registro de Usuario (register.html ):
+LISTO■ Nombre y apellido
+LISTO■ Nombre de usuari@
+LISTO■ Fecha de nacimiento
+■ Domicilio
+■ Perfil del usuario (consultar a l@s usuari@s si quieren comprar o vender)
+■ Categorías de interés (puede elegir más de una)
+● Electro
+● Moda
+● Hogar
+● Juguetería
+● Vida sana
+■ Foto de usuario
+■ Contraseña
+■ Confirmar contraseña
+■ Botón de enviar que nos lleve a la página principal
+■ Botón de borrar todos los datos del formulario
+
+
+Micro desafío - Paso 2
+El formulario para ingresar al sitio se mostrará cuando seleccionemos la opción .
+Este deberá contar con la siguiente información:
+Login de Usuario (login.html ):
+
+● Nombre de usuari@
+● Contraseña
+● Botón de enviar que nos lleve a la página principal

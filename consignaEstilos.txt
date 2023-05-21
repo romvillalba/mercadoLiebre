@@ -1,0 +1,50 @@
+● Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+● Tipografías
+Familia: 'Roboto'
+Nos envían esta demo de cómo cargar fuentes de Google Fonts. Además
+podemos consultar el siguiente recurso aquí, para más detalle.
+
+● Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+LISTO ● Íconos
+El departamento de diseño usó los íconos de este sitio:
+https://fontawesome.com/icons?d=gallery&m=free
+Para ello nos pidieron que carguemos una hoja de estilos del mismo con esta
+porción de código. Nos indicaron que deberíamos de saber dónde tiene que estar
+ubicada, y sino que consultemos a nuestros compañeros.
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+
+
+
+LISTO Micro desafíos - Paso 2
+
+Para implementar el último elemento del Header (el menú hamburguesa), compartimos
+una ayuda:
+    <div class="burger-menu">
+    <i class="fas fa-bars"></i>
+    </div>
+Solo faltaría que le coloquemos los estilos necesarios para que se vea igual al mockup de
+arriba.
+
+-----------------------------------------------------------------------------------------------------
+PENDIENTE
+
+Micro desafío - code review
+
+Debemos agregar estilos al Pie de página:
+● El contenido de todos los artículos está centrado.
+● Los íconos tienen un tamaño de 2em y un margen inferior de separación de 10
+píxeles.
