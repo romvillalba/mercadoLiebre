@@ -5,69 +5,45 @@ body {
 
 header{
     background-color: #EAC926;
+    max-height: 200vh;
 }
 
 .top-header {
     display: flex;
     flex-wrap: wrap;
     padding-top: 5%;
-    width: 90%;
-    height: 100%;
+    width: 100%;
 }
 
 .logo {
-    width: 50%;
+    display: flex;
+    width: 40%;
 }
 
-.buscador {
-    width: 50%;
+.buscador{
+    justify-content: space-around;
+}
+
+.buscador button{
+    width: 70%;
     display: flex;
     align-items: center;
+    background-color: #FFF;
+    color: #666;
+    border: 0;
+    border-radius: 5px;
+    padding: 2%;
+    justify-content: space-between;
+    margin-left: 10%;
 }
 
-.textoCentro p {
-    justify-content: center;
-}
-
-main section article img {
-    width: 25%;
-}
-
-header nav {
-    display: none;
-}
-
-header nav ul li a {
-    font-size: 12px;
-    text-decoration: none;
-    color: #000;
-}
-
-header nav ul li {
-    list-style-type: none;
-
-}
-
-header nav ul {
-    margin-bottom: 0px;
+.textoCentro {
     display: flex;
-    justify-content: space-around;
-    width: 42%;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
 }
 
-header .buscador .input {
-    background-color:#FFF;
-    border: 1px solid #ebebeb;
-    color: #666;
-    border-radius: 5px;
-}
-
-header .buscador .lupa i {
-    background-color:#FFF;
-    border: 1px solid #ebebeb;
-    color: #666;
-    border-radius: 5px;
-}
 
 header div.burger-menu i {
     background-color: #1259c3;
@@ -82,8 +58,36 @@ header div.burger-menu {
     text-align: center;
 }
 
+main section article img {
+    width: 25%;
+}
+
+header nav {
+    display: none;
+}
+
+header nav ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+header nav ul li {
+    list-style-type: none;
+
+}
+
+header nav ul {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-right:5%;
+}
+
 main section h3 {
     font-size: 24px;
+    color: #52515c
 }
 
 header {
@@ -106,6 +110,7 @@ main {
 
 main section article{
     margin-bottom: 10px;
+    transition: all 0.5s;
 }
 
 main section article img {
@@ -122,26 +127,28 @@ main section article img {
 }
 
 .precio {
-    width: 30%;
+    width: 50%;
 }
 
 .descuento {
-    width: 70%;
+    width: 50%;
 }
 
 main section article div i {
     display: block;
     font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
+    padding: 3%;
     border: 1px solid #39b54a;
+    color: #39b54a;
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
     right: 20px;
     top: -15px;
+    margin-right: 5%;
+
 }
+
 
 main section article div div {
     position: relative;
@@ -151,50 +158,103 @@ main section article div div {
     display: none;
 }
 
-#formulario-registro{
-    background-color: #ededed;
-}
-
-.formularios {
-    display:flex;
-    flex-direction: column;
-    align-items: center ;
-    justify-content: space-between;
-    margin-top: 25px;
-}
-
 form div {
-    margin-bottom: 10px;
-    border-radius: 5%;
-    width: 100%;
+    border-radius: 5px;
+    border: #ebebeb solid 1px;
+    width: auto;
 }
 
-.text-field {
-    padding: 5px;
-    border-radius: 5%;
+
+.formulario-registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    flex-direction: column;
 }
 
-.seleccionPerfil{
- display: flex;
- 
-}
-
-.seleccionInteres{
+.registro {
+    padding: 2%;
     display: flex;
     flex-direction: column;
-    
+    width: 50%;
+    max-width: 400vw;
+    margin-top: 2.5%;
+    justify-content: center;
 }
 
+.formulario-ingreso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-color: #ededed;
+
+}
+  
+.ingreso div input{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-field {
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    border: 0;
+}
+
+.seleccionPerfil {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.seleccionInteres {
+    display: flex;
+    flex-direction: column;
+}
+ 
 .botonSubmit {
- background-color: green;
+ margin-top: 5%;
+ background-color: #1259c3;
  color: #ebebeb;   
+ padding: 2%;
+ border-radius: 10px;
+ border: 0;
+ justify-content: center;
+ align-items: center;
 }
 
 .botonReset {
- background-color:red ;  
+ margin-top: 5%;
+ background-color:#666 ;  
  color: #ebebeb;    
+ padding: 2%;
+ border-radius: 10px;
+ border: 0;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer i{
+    margin-top: 5%;
+    color: #1259c3;
+    font-size: 150%;
+}
+
+.descriprod {
+    transition: all 0.7s;
+}
 
 
 @media (min-width: 361px) {
@@ -205,9 +265,17 @@ form div {
         padding: 5%;
         width: 90%;
         height: 100%;
-        justify-content: space-between
+        align-items: center;
     }
 
+    .buscador {
+        width: 50%;
+        display: flex;
+    }
+
+    .textoCentro {
+        width: 40%;
+    }
 
     .productos {
         display: flex;
@@ -218,16 +286,39 @@ form div {
     .descriprod {
         display: block;
     }
-    main section article{
-        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
-        width: 45%;
-    }
+
     header nav {
         display: flex;
         justify-content: space-between;
     }
     header div.burger-menu {
         display: none;
+    }
+
+    .formulario-registro {
+        max-height: 400vh;
+    }
+    
+    .formulario-ingreso {
+        height: 40vh;
+    }
+
+    .text-field{
+        width: 50vw;
+    }
+
+    .botonSubmit{
+        width: 50vw;
+    }
+
+    .botonReset{
+        width: 50vw;
+    }
+
+    div .botonSubmit:hover{
+        background-color: #1259c3;
+        color: #ebebeb;
+        transition-duration: 0.3s;
     }
 
 }
@@ -237,6 +328,38 @@ form div {
     main section article{
         width: 22.5%;
     }
-}
 
+    .descriprod {
+        display: none;
+    }
+
+
+    .descriprod{
+        display: none;
+    }
+
+    article:hover .descriprod{
+        display: block;
+    }
+
+    article:hover {
+        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+    }
+
+    article:hover i{
+        transform: rotate(-90deg);
+        transition: all 0.6s; 
+    }
+    
+    footer section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    footer div {
+        margin-top: 5%
+    }
+
+}
 
