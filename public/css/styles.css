@@ -227,6 +227,12 @@ form div {
  border: 0;
  justify-content: center;
  align-items: center;
+ transition: color 0.3s ease; 
+}
+
+.botonSubmit:hover {
+    background-color: #03264c; 
+    color: #fff; 
 }
 
 .botonReset {
@@ -366,6 +372,14 @@ footer i{
         margin-top: 5%;
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    section div i {
+        transition: color 0.3s ease; 
+    }
+    
+    section div i:hover {
+        color: #03264c; 
     }
 
 }
