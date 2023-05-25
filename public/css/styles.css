@@ -350,6 +350,11 @@ footer i{
         transform: rotate(-90deg);
         transition: all 0.6s; 
     }
+
+    footer{
+        width: 100%;
+        justify-content: space-around;
+    }
     
     footer section{
         display: flex;
@@ -357,8 +362,10 @@ footer i{
         align-items: center;
     }
 
-    footer div {
-        margin-top: 5%
+    footer section div {
+        margin-top: 5%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
